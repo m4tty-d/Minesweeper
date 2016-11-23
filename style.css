@@ -1,0 +1,118 @@
+body {
+	background-color: #f1f1f1;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+}
+
+div.container {
+	background-color: #c5c5c5;
+	display: table;
+	border: 5px solid white;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+table.stats {
+	height: 50px;
+	width: 100%;
+	border-top: 3px solid grey;
+	border-left: 3px solid grey;
+	border-right: 3px solid white;
+	border-bottom: 3px solid white;
+	margin-bottom: 20px;
+}
+
+div.timer {
+	background-color: black;
+	height: 35px;
+	width: 50px;
+	border-top: 1px solid grey;
+	border-left: 1px solid grey;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	margin-left: 8px;
+	color: red;
+	font-size: 29px;
+	font-family: "Consolas";
+}
+
+div.smiley {
+	margin-left: auto;
+	margin-right: auto;
+	height: 35px;
+	width: 35px;
+	border-top: 3px solid grey;
+	border-left: 3px solid grey;
+	border-right: 3px solid white;
+	border-bottom: 3px solid white;
+	text-align: center;
+    font-size: 26px;
+}
+
+div.points {
+	background-color: black;
+	height: 35px;
+	width: 50px;
+	float: right;
+	border-top: 1px solid grey;
+	border-left: 1px solid grey;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	margin-right: 8px;
+	color: red;
+	font-size: 29px;
+	font-family: "Consolas";
+}
+
+table.field {
+	background-color: rgba(128, 128, 128, 0.58);
+	width: 450px;
+	height: 400px;
+	border-top: 4px solid grey;
+	border-left: 4px solid grey;
+	border-right: 4px solid white;
+	border-bottom: 4px solid white;
+}
+
+.field th, .field td {
+	background-color: #afafaf;
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+	border-right: 2px solid grey;
+	border-bottom: 2px solid grey;
+	text-align: center;
+	width: 25px;
+	height: 20px;
+}
+
+td.redflag {
+	color: red;
+}
+
+td.blue_one {
+	color: blue;
+	font-weight: bold;
+}
+
+td.green_two {
+	color: green;
+	font-weight: bold;
+}
+
+td.black_four {
+	font-weight: bold;
+}
+
+
+td.bomb_clicked {
+	background-color: red;
+	border: none;
+}
+
+td.redflag, td.blue_one, td.green_two, td.black_four, td.clicked, td.bomb {
+	background-color: lightgray;
+	border: 2px solid lightgray;
+}
